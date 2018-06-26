@@ -1,6 +1,5 @@
 import os
 from flask import Flask
-from .auth import auth
 from .errors import not_found, not_allowed
 from flask_sapb1 import SAPB1Adaptor
 from flask_jwt import JWT
